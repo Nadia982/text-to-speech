@@ -38,6 +38,8 @@ a:active {
 
 textarea {
   height: 250px;
+  width: 80vw;
+  max-width: 600px;
   background: #403d84;
   color: #fff;
   font-size: 1rem;
@@ -54,10 +56,9 @@ textarea::placeholder {
   color: #ddd;
 }
 
-textarea,
 .row {
   width: 80vw;
-  max-width: 600px;
+  max-width: 600px;  
 }
 
 .row {
@@ -88,7 +89,8 @@ button {
 
 select {
   color: #fff;
-  max-width: 55vw;
+  width: 50vw;
+  max-width: 450px;
   background: #403d84;
   height: 50px;
   padding: 0 1em;
@@ -116,12 +118,12 @@ footer {
 
   .row {
     flex-direction: column;
-    
   }
 
   select {
     color: #fff;
-    max-width: 90vw;
+    width: 90vw;
+    /* max-width: 90vw; */
     background: #403d84;
     height: 50px;
     padding: 0 3.5em 0 1em;
